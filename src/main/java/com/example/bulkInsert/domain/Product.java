@@ -22,10 +22,10 @@ public class Product {
     private ProductCategory category;
 
     @Column
-    private Double starRating;
+    private Integer starRating;
 
     @Column
-    private Double discountRate;
+    private Integer discountRate;
 
     @Column
     private LocalDateTime discountStart;
